@@ -1,0 +1,134 @@
+body{
+  background-color:rgb(87, 87, 217);
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  margin-bottom:30px;     
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  width:200px;
+  gap:20px;
+}
+.count{
+  counter-reset:p-counter;
+  width:700px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.portals{
+  display:flex;
+  flex-direction: column;
+  width:250px;
+  margin-bottom:30px;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+.portal{
+  padding-left:12px;
+  padding-right:12px;
+  padding-top: 14px;
+  padding-bottom:14px;
+  font-weight:bold;
+  cursor: pointer;
+  transition: opacity 0.2s, box-shadow 0.2s;
+  background-color: black;
+  color:white;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height:47px;
+  margin:0;
+  
+}
+.portal:hover{
+  opacity: 0.8;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+}
+.planet{
+  margin:0;
+  counter-increment: p-counter;
+  font-family:Arial;
+  font-weight: bold;
+  font-size: large;
+  display:flex;
+  justify-content: center;
+  height:47px;
+  align-items: center;
+}
+.planet:before{
+  content:counter(p-counter) ") \t";
+  font-family:Arial;
+  font-weight: bold;
+}
+.orbit{
+      display:flex;
+      justify-content: center;
+      font-weight:900;
+      font-size: 40px;
+      font-family: Arial;
+
+}
+.third-b{
+  background-color:rgb(245, 251, 248); 
+  border-width:3px; 
+   color:rgb(3, 128, 55); 
+  border-color:rgb(3, 128, 55);
+  transition: background-color 0.3s, color 0.3s;
+}
+.third-b:hover{
+  color:white;
+  background-color:rgb(3, 128, 55);
+}
+.third-a{
+  background-color:rgb(51, 7, 139); 
+  border-width:3px; 
+   color:white; 
+  border-color:rgb(51, 7, 139);
+  transition: background-color 0.3s, color 0.3s;
+}
+.third-a:hover{
+  color:rgb(51, 7, 139);
+  background-color:white;
+}
+.third-c{
+  background-color:rgb(136, 165, 16); 
+  border-width:3px; 
+   color:black; 
+  border-color:rgb(136, 165, 16);
+  transition: background-color 0.3s, color 0.3s;
+}
+.third-c:hover{
+  color:rgb(136, 165, 16);
+  background-color:black;
+}
+.third-d{
+  background-color:black; 
+  border-width:3px; 
+   color:rgb(12, 137, 20); 
+  border-color:rgb(12, 137, 20);
+  transition: background-color 0.3s, color 0.3s;
+}
+.third-d:hover{
+  color:black;
+  background-color:rgb(12, 137, 20);
+}
+.third-e{
+  background-color:rgb(216, 23, 23); 
+  border-width:3px; 
+   color:black; 
+  border-color:rgb(216, 23, 23);
+  transition: background-color 0.3s, color 0.3s;
+}
+.third-e:hover{
+  color:rgb(216, 23, 23);
+  background-color:black;
+}
+
+
