@@ -63,7 +63,7 @@ body{
   align-items: center;
 }
 .planet:before{
-  content:counter(p-counter) ") \t";
+  content:counter(p-counter) ") ";
   font-family:Arial;
   font-weight: bold;
 }
